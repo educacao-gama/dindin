@@ -1,0 +1,217 @@
+/* CSS Homepage */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 712px;
+    width: 100vw;
+}
+
+.hero-text{
+    margin: 145px 39px 317px 206px;
+    
+}
+
+.hero-section h1{
+    padding: 20px 0 0 0;
+    width: 488px;
+    height: 216px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 69px;
+    color: #FF4081;
+}
+
+.hero-section p{
+    width: 370px;
+    height: 62px;
+    padding: 10px 0 0 0;
+    margin-top: 19px;
+    margin-right: 64px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 31px;
+    color: #555555;
+}
+
+.btn--outline{
+    cursor: pointer;
+    margin-top: 50px;
+    width: 268px;
+    height: 51px;
+    border: 2px solid #FF4081;
+    box-sizing: border-box;
+    border-radius: 62px;
+    color: #FF4081;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 31px;
+    background-color: transparent;
+    transition: 300ms;
+
+}
+
+.btn--outline:hover{
+    background-color: #FF4081;
+    color: #FDFDFD;;
+}
+
+.hero-image img{
+    /*padding: 135px 120px 66px 0;*/  
+    position: absolute;
+    left: 75%;
+    right: 15%;
+    top: 80%;
+    bottom: 0%;
+    transform: translate(-50%, -50%);
+    animation: move 2s infinite alternate ease-in-out;
+}
+
+@keyframes move {
+    from {
+      transform: translate(-50%, -55%);
+    }
+  }
+
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 730px;
+    width: 100vw;
+    padding: 0 50px 0 50px;
+    background: #F7F7F7;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    
+}
+
+.card-image{
+    align-self: center;
+}
+
+.card-content{
+    display: contents;
+}
+
+.card h3{
+    padding-top: 45px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FF4081;
+}
+
+.card p{
+    width: 293px;
+    height: 60px;
+    margin-top: 23px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.btn--full{
+    cursor: pointer;
+    width: 233px;
+    height: 51px;
+    background: #FF4081;
+    border-radius: 62px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 41px;
+    transition: 300ms ease-in-out;
+}
+
+.btn--full:hover{
+    background-color: #FDFDFD;
+    color: #FF4081;
+    border:2.5px solid #FF4081;
+}
+
+.coments-container{
+    height: 710px;
+    width: 100vw;
+}
+
+.coments-title{
+    margin-top: 119px;
+    margin-left: 128px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 50px;
+    color: #009688;
+}
+
+.container-card{
+    display: flex;
+    margin-top: 78PX;
+}
+
+.first-line{
+    display: flex;
+    margin: 70px 50px 85px 128px;
+}
+
+.second-line{
+    display: flex;
+    margin: 70px 50px 85px 64px;
+}
+
+.text{
+    margin-left: 37px;
+    width: 363px;
+    height: 73.65px;
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.text h6{
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.info-container{
+    background-color: #E5E5E5;
+    height: 730px;
+}
+
+.info-flex{
+    display: flex;
+
+}
