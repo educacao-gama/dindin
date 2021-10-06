@@ -46,7 +46,7 @@
 
 .btn--outline{
     cursor: pointer;
-    margin-top: 40px;
+    margin-top: 50px;
     width: 268px;
     height: 51px;
     border: 2px solid #FF4081;
@@ -64,12 +64,26 @@
 
 .btn--outline:hover{
     background-color: #FF4081;
-    color: #FDFDFD;
+    color: #FDFDFD;;
 }
 
 .hero-image img{
-    padding: 135px 120px 66px 0;
+    /*padding: 135px 120px 66px 0;*/  
+    position: absolute;
+    left: 75%;
+    right: 15%;
+    top: 80%;
+    bottom: 0%;
+    transform: translate(-50%, -50%);
+    animation: move 2s infinite alternate ease-in-out;
 }
+
+@keyframes move {
+    from {
+      transform: translate(-50%, -55%);
+    }
+  }
+
 
 .card-container{
     display: flex;
@@ -141,4 +155,63 @@
     background-color: #FDFDFD;
     color: #FF4081;
     border:2.5px solid #FF4081;
+}
+
+.coments-container{
+    height: 710px;
+    width: 100vw;
+}
+
+.coments-title{
+    margin-top: 119px;
+    margin-left: 128px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 50px;
+    color: #009688;
+}
+
+.container-card{
+    display: flex;
+    margin-top: 78PX;
+}
+
+.first-line{
+    display: flex;
+    margin: 70px 50px 85px 128px;
+}
+
+.second-line{
+    display: flex;
+    margin: 70px 50px 85px 64px;
+}
+
+.text{
+    margin-left: 37px;
+    width: 363px;
+    height: 73.65px;
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.text h6{
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.info-container{
+    background-color: #E5E5E5;
+    height: 730px;
+}
+
+.info-flex{
+    display: flex;
+
 }
