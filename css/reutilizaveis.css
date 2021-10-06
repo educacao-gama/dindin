@@ -14,7 +14,9 @@ a{
 }
 
 
-/* CSS Navbar */
+/* CSS Navbar  Desktop*/
+
+
 .navbar-container{
     display: flex;
     justify-content: space-between;
@@ -35,7 +37,7 @@ a{
     margin-right: 103px;
 }
 
-.menu-items a {
+.menu-items a{
     text-decoration: none;
     font-style: normal;
     font-weight: bold;  
