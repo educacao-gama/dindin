@@ -16,8 +16,7 @@
 }
 
 .hero-text{
-    margin: 145px 39px 317px 206px;
-    
+    margin: 145px 39px 317px 206px; 
 }
 
 .hero-section h1{
@@ -59,7 +58,6 @@
     line-height: 31px;
     background-color: transparent;
     transition: 300ms;
-
 }
 
 .btn--outline:hover{
