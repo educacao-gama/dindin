@@ -18,6 +18,7 @@ main{
     height: 80%;
 }
 
+
  .banner__text{
    padding-right: 10%;
    padding-top: 5%;
@@ -60,7 +61,6 @@ main{
     line-height: 31px;
     background-color: transparent;
     transition: 300ms;
-
 }
 
  .btn--outline:hover{
