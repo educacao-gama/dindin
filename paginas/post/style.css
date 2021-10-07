@@ -1,0 +1,46 @@
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.container__titulo-principal{
+    text-align: center;
+    color: #FF4081;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    padding-top: 4.5rem;
+}
+
+.section-posts__photo{
+    background: #C4C4C4;
+    height: 465px;
+    margin-bottom: 3rem;
+}
+
+.container__paragrafo-data{
+    text-align: center;
+    color: #9D9D9D;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 3.5rem;
+}
+
+.section-posts{
+    margin-bottom: 4rem;
+}
+
+.section-posts h2, .section-posts h3{
+    color: #419488;
+    margin-bottom: 1.5rem;
+}
+
+.section-posts__paragrafos p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    font-feature-settings: 'kern' off;
+    color: #000000;
+    margin-bottom: 1.5rem;
+}
