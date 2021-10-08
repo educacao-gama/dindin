@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+    width: 80%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 69px;
+    color: #FF4081;
+}
+
+.Title {
+    margin: 53px 0px -53px 53px;
+}
+
+.courses-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60%;
+    padding: 8% 8%;
+    background: #fff;
+}
+
+.line1{
+    position: absolute;
+    width: 88%;
+    height: 5px;
+    left: 82px;
+    top: 834px;
+    background: #C4C4C4;
+}
+
+.line2{
+    position: absolute;
+    width: 87%;
+    height: 5px;
+    left: 98px;
+    top: 1424px;
+    background: #C4C4C4;
+}
+
+.inside {
+    padding-left: 53px; 
+}
+
+h2 {
+        width: 80%;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 120px;
+        margin-top: -80px;
+        color: #FF4081;
+}
+
+p {
+    font-family: ubuntu;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.btn--full{
+    cursor: pointer;
+    width: 233px;
+    height: 51px;
+    background: #419488;
+    border-radius: 62px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 53px;
+    transition: 300ms ease-in-out;
+}
