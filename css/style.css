@@ -75,6 +75,8 @@ main{
     right: 15%;
     top: 70%;
     bottom: 0%;
+    max-width: 50%;
+    height: auto;
     transform: translate(-50%, -50%);
     animation: move 2s infinite alternate ease-in-out;
 }
@@ -272,6 +274,25 @@ main{
     margin-bottom: 3%;
 }
 
+
+@media screen and (min-width: 1040px) {
+    
+    .banner__image img{
+        position: absolute;
+        top: 550px;
+        max-width: 40%;
+        height: auto;
+        padding-bottom: 10%;
+
+    }
+
+    hr{
+        display: none;
+    }
+}
+
+
+
 @media screen and (max-width: 1060px) {
 
     .banner{
@@ -301,20 +322,10 @@ main{
 
     
  .btn--outline{
-    cursor: pointer;
     margin-top: 50px;
-    width: 50%;
+    max-width: 50%;
     height: 51px;
-    border: 2px solid #FF4081;
-    box-sizing: border-box;
-    border-radius: 62px;
-    color: #FF4081;
-    font-style: normal;
-    font-weight: normal;
     font-size: 20px;
-    line-height: 31px;
-    background-color: transparent;
-    transition: 300ms;
     }
 
     .card-container{
@@ -323,7 +334,6 @@ main{
     }
 
      .card-container__info{
-         flex-direction: row;
         margin-top: 30px;
     }
 
@@ -332,36 +342,20 @@ main{
         text-align: center;
     }
 
-
-    .card-container__text .text2{
-        margin-left: 45px;
-    }
-
-    .card-container__text .text3{
-        margin-left: 78px;
-    }
-
     .btn--full{
-        cursor: pointer;
+        margin-bottom: 10%;
         width: 233px;
         height: 51px;
         align-self: center;
-        background: #FF4081;
-        border-radius: 62px;
-        font-weight: normal;
         font-size: 20px;
         line-height: 23px;
-        text-align: center;
-        color: #FFFFFF;
-        border: none;
-        margin-top: 41px;
         transition: 300ms ease-in-out;
     }
-    
-     .btn--full:hover{
-        background-color: #FDFDFD;
-        color: #FF4081;
-        border:2.5px solid #FF4081;
+
+    hr{
+        width: 340px;
+        height: 3px;
+        background: #C4C4C4;
     }
 
     .coments-container__people{
@@ -369,22 +363,12 @@ main{
     }
 
     .coments-container__title{
-        margin-top: 5%;
-        margin-left: 10%;
-        font-weight: bold;
         font-size: 25px;
-        line-height: 50px;
-        color: #009688;
     }
 
  
     .info-container__title{
-        margin-top: 5%;
-        margin-left: 10%;
-        font-weight: bold;
         font-size: 25px;
-        line-height: 50px;
-        color: #009688;
     }
 
     .info-container__flex{
@@ -393,5 +377,213 @@ main{
         margin: 0 10%;
     }
 
+        .info-content{
+        max-width: 70%;
+        }
+
+}
+
+@media screen and (max-width:820px) {
+
+        .banner{
+            display: block;
+
+        }
+    
+        .banner__image img{
+            position: absolute;
+            top: 400px;
+            width: 40%;
+            height: auto;
+            padding-bottom: 10%;
+    
+        }
+    
+        .banner__text h1{
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 50px;
+        }
+    
+        .banner__text p{
+            font-size: 20px;
+            width: 60%;
+        }
+    
+        
+     .btn--outline{
+        width: 50%;
+        height: 51px;
+        font-size: 20px;
+        }
+    
+        .card-container{
+            flex-direction: column;
+            
+        }
+    
+         .card-container__info{
+            margin-top: 30px;
+        }
+    
+        .card-container__text{
+            align-self: center;
+            text-align: center;
+        }
+    
+        .btn--full{
+            width: 233px;
+            height: 51px;
+            font-size: 20px;
+            line-height: 23px;
+        }
+        
+
+        .coments-container__people{
+            flex-direction: column;
+        }
+    
+        .coments-container__title{
+            font-size: 25px;
+        }
+    
+        .info-container__title{
+            font-size: 25px;
+            line-height: 50px;
+        }
+    
+        .info-container__flex{
+            display: flex;
+            flex-direction: column;
+            margin: 0 10%;
+        }
+}
+
+@media screen and (max-width:550px) {
+    .banner__image img{
+        position: absolute;
+        top: 300px;
+        max-width: 30%;
+        height: auto;
+        padding-bottom: 10%;
+    }
+
+    .btn--outline{
+        margin-top: 50px;
+        max-width: 40%;
+        height: 51px;
+        font-size: 18px;
+        line-height: 31px;
+        }
+
+    .btn--full{
+        width: 200px;
+        height: 51px;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        color: #FFFFFF;
+        border: none;
+        margin-top: 41px;
+        }
+        
+}
+
+@media screen and (max-width: 520px) {
+
+    .banner__image img{
+       display: none;
+    }
+
+    .banner__text{
+     padding: 0;
+     margin-left: 5%;
+     }
+     
+    .banner h1{
+    width: 80%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    }
+     
+    .banner__text p{
+    padding: 0;
+    font-size: 20px;
+    width: 90%;
+    }
+
+    .btn--outline{
+        margin-top: 50px;
+        max-width: 200px;
+        height: 51px;
+        font-size: 18px;
+        }
+
+}
+
+@media screen and (max-width:380px) {
+    .btn--outline{
+        cursor: pointer;
+        margin-top: 50px;
+        max-width: 200px;
+        height: 51px;
+        border: 2px solid #FF4081;
+        box-sizing: border-box;
+        border-radius: 62px;
+        color: #FF4081;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 31px;
+        background-color: transparent;
+        transition: 300ms;
+        }
+
+        .people__first, .people__second{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            
+        }
+
+        .info-content h3{
+            font-size: 20px;
+        }
+
+        .info-content p{
+            font-size: 16px;
+        }
+
+}
+
+@media screen and (max-width:327px) {
+    .banner__text{
+        padding: 0;
+        margin-left: 10%;
+        }
+        
+       .banner h1{
+       font-size: 45px;
+       }
+    
+       .btn--outline{
+        width: 200px;
+        height: 51px;
+        font-size: 16px;
+        }
+
+        .card-container__img{
+            display: none;
+        }
+
+        .card-container__text h3{
+            padding-top: 10px;
+        }
+       
+        .card-container__text p{
+            width:95%;
+        }
 }
 

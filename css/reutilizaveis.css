@@ -135,39 +135,7 @@ a{
   right: 0;
 }
 
-@media screen and (max-width: 992px) {
-  .hamburguer,
-  .toggle-menu{
-  display: block;
-  }
 
-  .header{
-    padding: 10px 20px;
-  }
-
-  .menu{
-    justify-content: start;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    right: -300px;
-    background: #2E948A;
-    width: 300px;
-    height: 100%;
-    padding-top: 65px ;
-  }
-
-  .menu li{
-    width: 100%;
-  }
-
-  .menu li a{
-    padding: 30px;
-    font-size: 24px;
-  }
-
-}
 
 /* Fim CSS Navbar */
 
@@ -232,7 +200,7 @@ a{
 }
 
 .footer__nav-link{   
-    font-size: min(1.3rem, 4vw);
+    font-size: min(1.3rem, 5vw);
     line-height: 23px;
     color: #FFFFFF; 
     transition: 0.5s all;
@@ -259,7 +227,7 @@ a{
     box-sizing: border-box;
     border-radius: 62px;
     color: #ffffff;
-    font-size: min(1.3rem, 3.4vw);
+    font-size: min(1.3rem, 4vw);
     text-align: center;
     margin-bottom: 0.8rem;
     padding: 0.5rem 2rem;
@@ -272,6 +240,42 @@ a{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
     outline: none;
 }
+
+@media screen and (max-width: 992px) {
+  .hamburguer,
+  .toggle-menu{
+  display: block;
+  }
+
+  .header{
+    padding: 10px 20px;
+  }
+
+  .menu{
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    background: #2E948A;
+    width: 300px;
+    height: 100%;
+    padding-top: 65px ;
+  }
+
+  .menu li{
+    width: 100%;
+  }
+
+  .menu li a{
+    padding: 30px;
+    font-size: 24px;
+  }
+
+}
+
+
 
 @media screen and (max-width: 900px){
     .banner__description h1{ 
@@ -316,52 +320,39 @@ a{
     } 
 }
 
-@media screen and (max-width: 480px){
-
-    .banner__description{
-        width: 90%;
-    }
-    .banner__description h1{
-        margin-bottom: 1rem;
-    }
-
-    .banner__description p{
-        line-height: 1.2rem;
-    }
-
-}
-.btn{
-  position: relative;
-  display: block;
-  color: white;
-  font-size: 14px;
-  font-family: "montserrat";
-  text-decoration: none;
-  margin: 30px 0;
-  border: 2px solid #ff7675;
-  padding: 14px 60px;
-  text-transform: uppercase;
-  overflow: hidden;
-  transition: 1s all ease;
+@media screen and (max-width:600px) {
+  .logo a img{
+    display: block;
+    width: 90%;
+    height: auto;
+  }
 }
 
-.btn::before{
-  background: #ff7675;
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  z-index: -1;
-  transition: all 0.6s ease;
+
+@media screen and (max-width:500px) {
+  .logo a img{
+    display: block;
+    width: 80%;
+    height: auto;
+  }
+
+  .banner__description{
+      width: 90%;
+  }
+  .banner__description h1{
+      margin-bottom: 1rem;
+  }
+
+  .banner__description p{
+      line-height: 1.2rem;
+  }
 }
 
-.btn1::before{
-  width: 0%;
-  height: 100%;
-}
-
-.btn1:hover::before{
-  width: 100%;
+@media screen and (max-width:400px) {
+  .logo a img{
+    display: block;
+    width: 70%;
+    height: auto;
+  }
 }
 
