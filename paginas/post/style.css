@@ -1,24 +1,84 @@
+body{
+    width: 100%;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.container__main-title{
+    text-align: center;
+    color: #FF4081;
+    font-weight: 500;
+    font-size: 50px;
+    font-size: min(3.1rem, 8vw);
+    padding-top: 4.5rem;
+    margin-bottom: 16px;
+}
+
+.section-posts__photo{
+    background: #C4C4C4;
+    height: 60vh;
+    margin-bottom: 3rem;
+}
+
+.container__paragrafo-date{
+    text-align: center;
+    color: #9D9D9D;
+    font-weight: 300;
+    font-size: min(1.2rem, 4vw);
+    margin-bottom: 3.5rem;
+}
+
+.section-posts{
+    margin-bottom: 4rem;
+}
+
+.section-posts h2, .section-posts h3{
+    font-size: min(1.6rem, 5vw);
+    color: #419488;
+    margin-bottom: 1.5rem;
+}
+
+.section-posts__paragraph p{
+    font-weight: 300;
+    font-size: min(1.1rem, 4vw);
+    line-height: 21px;
+    font-feature-settings: 'kern' off;
+    color: #000000;
+    margin-bottom: 1.5rem;
+}
+
 /* Conheça os nossos cursos */
+.section-courses{
+    padding: 5% 8%;
+    background: #F7F7F7;
+
+}
+.section-courses>h4{
+    font-weight: 500;
+    font-size: min(3rem, 8vw);
+    line-height: 35px;
+    color: #FF4081;
+    text-align: center;
+    margin-bottom: 8%;
+}
+
 
 .card-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60%;
-    padding: 8% 8%;
     background: #F7F7F7;
+    flex-wrap: wrap;
 }
 
  .card-container__info{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-content: center;
     align-items: center;
-}
-
- .card-container__img{
-    align-self: center;
+    margin: 0 20px 0 20px;
 }
 
  .card-container__text .text1,
@@ -31,9 +91,7 @@
 
  .card-container__text h3{
     padding-top: 45px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
+    font-size: min(1.6rem, 6vw);
     line-height: 29px;
     text-align: center;
     color: #FF4081;
@@ -41,11 +99,9 @@
 
  .card-container__text p{
     width: 293px;
-    height: 60px;
     margin-top: 23px;
-    font-style: normal;
     font-weight: 300;
-    font-size: 17px;
+    font-size: min(1.1rem, 5vw);
     line-height: 20px;
     text-align: center;
     color: #000000;
@@ -53,14 +109,10 @@
 
  .btn--full{
     cursor: pointer;
-    width: 233px;
-    height: 51px;
-    align-self: center;
+    padding: 0.6rem 2.1rem;
     background: #FF4081;
     border-radius: 62px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
+    font-size: min(1.1rem, 5vw);
     line-height: 23px;
     text-align: center;
     color: #FFFFFF;
@@ -69,63 +121,80 @@
     transition: 300ms ease-in-out;
 }
 
+hr{
+    display: none;
+}
+
  .btn--full:hover{
     background-color: #FDFDFD;
     color: #FF4081;
     border:2.5px solid #FF4081;
 }
 
-/* Media Query */
+.card-container__img img{
+    height: 280px;
 
-@media screen and (max-width: 1060px) {
-
-    .card-container{
-        flex-direction: column;
-        
-    }
-
-     .card-container__info{
-         flex-direction: row;
-        margin-top: 30px;
-    }
-
-    .card-container__text{
-        align-self: center;
-        text-align: center;
-    }
-
-
-    .card-container__text .text2{
-        margin-left: 45px;
-    }
-
-    .card-container__text .text3{
-        margin-left: 78px;
-    }
-
-    .btn--full{
-        cursor: pointer;
-        width: 233px;
-        height: 51px;
-        align-self: center;
-        background: #FF4081;
-        border-radius: 62px;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 23px;
-        text-align: center;
-        color: #FFFFFF;
-        border: none;
-        margin-top: 41px;
-        transition: 300ms ease-in-out;
-    }
-    
-     .btn--full:hover{
-        background-color: #FDFDFD;
-        color: #FF4081;
-        border:2.5px solid #FF4081;
-    }
-  
 }
 
-/* Fim conheça os nossos cursos */
+/* Media Query */
+
+@media screen and (max-width: 1282px) {
+
+     .card-container__text h3{
+        font-size: min(1.4rem, 6vw);
+    }
+
+}
+
+@media screen and (max-width:1206px) {
+    .card-container__text h3{
+        font-size: min(1.3rem, 6vw);
+    }
+    .card-container__text p{
+        font-size: min(1rem, 5vw);
+        line-height: 20px;
+    }
+    .card-container__img img{
+        height: 200px;
+    
+    }
+}
+
+@media screen and (max-width:1190px) {
+    .card-container{
+        justify-content:center;
+        flex-wrap: wrap;
+    }
+
+    .card-container__info{
+        margin-bottom: 4rem;
+    }
+    .section-posts__photo{
+        height: 50vh;
+
+    }
+}
+
+@media screen and (max-width: 792px) {
+    .section-posts__photo{
+        height: 40vh;
+    }
+    .card-container__info{
+        margin: 4rem 0 4rem 0;
+    }
+    hr{
+        display: block;
+        width: 70%;
+        height: 3px;
+        background: #C4C4C4;
+    }
+    .section-courses{
+        padding: 10% 10%;
+        background: #F7F7F7;
+    }
+    .card-container__text p{
+        width: 100%;
+    }
+
+}
+
