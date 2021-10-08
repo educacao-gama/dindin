@@ -257,9 +257,9 @@ a{
     align-items: center;
     position: fixed;
     top: 0;
-    right: -300px;
+    right: -280px;
     background: #2E948A;
-    width: 300px;
+    width: 280px;
     height: 100%;
     padding-top: 65px ;
   }
