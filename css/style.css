@@ -131,7 +131,7 @@ main{
     color: #000000;
 }
 
- .btn--full{
+.btn--full{
     cursor: pointer;
     padding: 0.6rem 2.1rem;
     background: #FF4081;
@@ -145,7 +145,7 @@ main{
     transition: 300ms ease-in-out;
 }
 
- .btn--full:hover{
+.btn--full:hover{
     background-color: #FDFDFD;
     color: #FF4081;
     border:2.5px solid #FF4081;
