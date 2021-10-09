@@ -67,7 +67,7 @@ main{
     top: 75%;
     bottom: 0%;
     max-width: 50%;
-    height: auto;
+    /* height: auto; */
     transform: translate(-50%, -50%);
     animation: move 2s infinite alternate ease-in-out;
 }
@@ -75,6 +75,7 @@ main{
 @keyframes move {
     from {
       transform: translate(-50%, -55%);
+      /* -webkit-transform: translate(-50%, -55%); */
     }
   }
 
