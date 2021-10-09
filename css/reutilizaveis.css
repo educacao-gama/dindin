@@ -158,13 +158,13 @@ a{
 
 .banner__description h1{
     font-weight: bold;
-    font-size: min(2.9rem, 4.1vw);
+    font-size: min(2.9rem,6vw);
     line-height: 54px;
     margin-bottom: 1.5rem;
 }
 .banner__description p{
     font-weight: 300;
-    font-size: min(1.3rem, 3.6vw);
+    font-size: min(1.3rem, 4vw);
     line-height: 23px;
 }
 .banner__illustration{
@@ -354,5 +354,10 @@ a{
     width: 70%;
     height: auto;
   }
+  .banner__description p{
+    font-weight: 300;
+    font-size: min(1.3rem, 4vw);
+    line-height: 17px;
+}
 }
 
