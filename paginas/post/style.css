@@ -227,6 +227,9 @@ hr{
 }   
 
 @media screen and (max-width: 280px) {
+    .container__course{
+        padding-top: 2rem;
+    }
     .card-container__info{
         width: 200px;
         min-width: none;
