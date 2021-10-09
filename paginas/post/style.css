@@ -123,7 +123,7 @@ hr{
     color: #000000;
     margin-bottom: 2rem;
 }
-.btn--full{
+.btn__courses{
     cursor: pointer;
     padding: 0.6rem 2.1rem;
     background: #FF4081;
@@ -133,12 +133,12 @@ hr{
     text-align: center;
     color: #FFFFFF;
     border: none;
-    margin-top: 41px;
+    margin-top: 2.56rem;
     transition: 300ms ease-in-out;
 }
 
 
- .btn--full:hover{
+.btn__courses:hover{
     background-color: #FDFDFD;
     color: #FF4081;
     border:2.5px solid #FF4081;
@@ -156,9 +156,8 @@ hr{
         font-size: min(1.2rem, 6vw);
     }
     .card-container__img img{
-        height: auto;
-        width: 250px;
-
+        height: 50vh;
+        width: auto;
     }
 } 
 
@@ -169,6 +168,9 @@ hr{
     .card-container__info{
         min-width: 280px;
         margin: 0 2rem 2rem 2rem;
+    }
+    .btn__courses{
+        margin-top: 2rem;
     }
 }
 
@@ -237,7 +239,5 @@ hr{
     .card-container__text p{
         width: 200px;
         min-width: none;
-    }
-    
-    
+    }  
 }
