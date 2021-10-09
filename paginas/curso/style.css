@@ -1,0 +1,49 @@
+main{
+width: 100%; 
+background: #F6F6F6;
+}
+
+.color-pink{
+  color: #FF4081;
+}
+
+.container{
+  width: 100%;
+}
+
+.course-container{
+  background-color:#F6f6f6;
+  padding: 2% 10%;
+}
+
+.course-info{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+iframe{
+  width:462px;
+  height:261px;
+  margin-right: 4rem;
+}
+
+.course-info__text{
+  width: 40%;
+  margin: 4.5rem 0;
+}
+
+.course-info__text h2 {
+  color: #FF4081;
+  font-size: min(2.1rem, 7vw);
+  margin-bottom: 2rem;
+}
+
+.course-info__text p{
+  font-size: min(1.2rem, 6vw);
+  margin-bottom: 1rem;
+  font-weight: 300;
+  line-height: 23px;
+}
+
+

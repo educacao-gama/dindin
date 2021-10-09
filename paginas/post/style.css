@@ -55,11 +55,9 @@ body{
 
 /* Conheça os nossos cursos */
 .section-courses{
-
     padding: 5% 10%;
     background: #F7F7F7;
     width: 100%;
-
 }
 .section-courses>h4{
     font-weight: 500;
@@ -137,7 +135,6 @@ hr{
     transition: 300ms ease-in-out;
 }
 
-
  .btn--full:hover{
     background-color: #FDFDFD;
     color: #FF4081;
@@ -187,14 +184,12 @@ hr{
         height: 3px;
         background: #C4C4C4;
     }
+
     .btn--full{
         margin-top: 1.5rem;
     }
 
 }
-
-
-
 
 @media screen and (max-width: 460px) {
     .card-container__text h3{
@@ -238,3 +233,4 @@ hr{
     
     
 }
+
