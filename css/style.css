@@ -41,12 +41,13 @@ main{
 
 .banner__image img{
     max-width: 90%;
-    padding-top: 2rem;
+    padding-top: 2.5rem;
+    padding-right: 2rem;
 }
 
  .btn--outline{
     cursor: pointer;
-    margin-top: 2rem;
+    margin-top: 2.2rem;
     padding: 0.6rem 2.1rem;
     border: 2px solid #FF4081;
     border-radius: 62px;
@@ -254,16 +255,19 @@ hr{
     }
 } 
 
-@media screen and (max-width:1140px) {    
+@media screen and (max-width:1140px) {   
+    .banner__text h1{
+        width:90%
+    }
+    
      .banner p{
-        max-width: 80%;
+        max-width: 85%;
     }
 }
 
 @media screen and (max-width:1050px) {
     .banner h1{
-        max-width: 80%;
-        line-height: 60px;
+        line-height: 55px;
     }
 
     .card-container__text h3{
@@ -291,7 +295,6 @@ hr{
     .banner h1{
         max-width: 100%;
         font-size: min(4rem, 7vw);
-        line-height: 60px;
     }
 
     .banner p{
@@ -302,6 +305,7 @@ hr{
 
     .banner__image img{
         max-width: 80%;
+        padding-right: 0;
     }
 
     .card-container__info{
