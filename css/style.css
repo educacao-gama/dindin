@@ -241,6 +241,11 @@ hr{
     margin-bottom: 5%;
 }
 
+.btn--post{
+    align-self: center;
+    margin-bottom: 5%;
+}
+
 @media screen and (max-width: 1224px) {
     .banner__text h1{
         line-height: 65px;
