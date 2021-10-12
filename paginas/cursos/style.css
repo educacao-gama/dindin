@@ -126,11 +126,9 @@ h2 {
     
     .inside{
         text-align: center;
+        padding: 0;
     }
 
-    .inside p{
-        text-align:left;    
-    }  
     .btn__course {
         margin-bottom: 2rem;
     }   
@@ -141,8 +139,8 @@ h2 {
         padding-top: 3rem;
     }
     h1 {
+        font-size: min(2.3rem, 9vw);
         line-height: 50px;
-        
     }
     h2 {
         margin-bottom: 2rem;
