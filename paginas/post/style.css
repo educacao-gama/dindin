@@ -13,6 +13,7 @@ body{
     font-weight: 500;
     font-size: 50px;
     font-size: min(3.1rem, 8vw);
+    line-height: 45px;
     padding-top: 4.5rem;
     margin-bottom: 16px;
 }
@@ -199,4 +200,10 @@ hr{
         height: auto;
         width: 40%;
     }
+
+    .section-posts__photo img{
+        width: 100%;
+        height: 40vh;
+    }
+    
 }

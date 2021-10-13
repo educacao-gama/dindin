@@ -200,7 +200,7 @@ a{
 }
 
 .footer__nav-link{   
-    font-size: min(1.3rem, 5vw);
+    font-size: min(1.3rem, 5.5vw);
     line-height: 23px;
     color: #FFFFFF; 
     transition: 0.5s all;
