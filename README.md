@@ -7,7 +7,7 @@
 
 ## Sobre o projeto:
 
-A empresa fictícia DINDIN, quer lançar uma plataforma de conteúdo sobre Educação Financeira.
+A empresa fictícia DINDIN quer lançar uma plataforma de conteúdo sobre Educação Financeira.
 Além do desenvolvimento front-end, o cliente pediu para estruturar um banco de dados para a plataforma, priorizando informações sobre cursos, posts do blog e depoimentos de usuários.
 
 A organização e elaboração do projeto foi feito em três etapas principais:
