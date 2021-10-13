@@ -69,14 +69,6 @@ main{
     width: 100%;
 
 }
-.section-courses>h4{
-    font-weight: 500;
-    font-size: min(3rem, 8vw);
-    line-height: 35px;
-    color: #FF4081;
-    text-align: center;
-    margin-bottom: 8%;
-}
 
 .card-container{
     width: 100%;
@@ -88,8 +80,9 @@ main{
 }
 
 .card-container__info{
-    width: 33%;
-    margin: 0 5% 10% 5%;
+    width: 30%;
+    padding: 0 2%;
+    min-width: 272px;
 }
 
 .card-container__img{
@@ -107,7 +100,7 @@ main{
     text-align: center;
 }
 
-.card-container__text>h3{
+.card-container__text h3{
     font-weight: 500;
     font-size: min(1.4rem, 6vw);
     line-height: 40px;
@@ -116,7 +109,7 @@ main{
     margin-bottom: 8%;
 }
 
-.card-container__text>p{
+.card-container__text p{
     width: 100%;
     font-weight: 300;
     font-size: min(1.1rem, 4.8vw);
@@ -125,9 +118,10 @@ main{
     color: #000000;
     margin-bottom: 2rem;
 }
+
 .btn__courses{
     cursor: pointer;
-    padding: 0.6rem 2.1rem;
+    padding: 0.9rem 2.5rem;
     background: #FF4081;
     border-radius: 62px;
     font-size: min(1.1rem, 5vw);
@@ -149,6 +143,7 @@ main{
 hr{
     display: none;
 }
+
 
 .coments-container{
     height: 80%;
@@ -269,15 +264,16 @@ hr{
     .banner__text h1{
         line-height: 65px;
     }
-  
     .card-container__text h3{
-        font-size: min(1.2rem, 6vw);
+        font-size: min(1.2rem, 5vw);
+        margin-bottom: 2rem;
     }
     .card-container__img img{
-        height: 50vh;
+        height: 40vh;
         width: auto;
     }
-} 
+}
+ 
 
 @media screen and (max-width:1140px) {   
     .banner__text h1{
@@ -294,16 +290,14 @@ hr{
         line-height: 55px;
     }
 
-    .card-container__text h3{
-        font-size: min(1.2rem, 5vw);
+    .card-container__info {
+        padding: 0%;
+        margin: 0 4% 8% 4%;
     }
-    .card-container__info{
-        min-width: 280px;
-        margin: 0 2rem 2rem 2rem;
-    }
+
     .btn--full{
-        margin-top: 2rem;
-    }
+        margin-top: 1.5rem;
+    } 
 }
 
 @media screen and (max-width: 860px) {
@@ -344,7 +338,7 @@ hr{
         height: 3px;
         background: #C4C4C4;
     }
-    .btn--full{
+    .btn__courses{
         margin-top: 1.5rem;
     }
 
@@ -367,6 +361,7 @@ hr{
     .info-content{
         max-width: 70%;
     }
+     
 }
 
 @media screen and (max-width:670px) {
@@ -415,7 +410,7 @@ hr{
 
     .card-container__text p{
         font-size: min(1.1rem, 5vw);
-        margin-bottom: 1rem;      
+        margin-bottom: 2rem;      
     }
 
     .card-container__img{
@@ -482,14 +477,6 @@ hr{
     .container__course{
         padding-top: 2rem;
     }
-    .card-container__info{
-        width: 200px;
-        min-width: none;
-    }
-    .card-container__text p{
-        width: 200px;
-        min-width: none;
-    }  
 
 }
 
