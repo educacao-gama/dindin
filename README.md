@@ -4,6 +4,8 @@
 >
 >Juliana Gondin | Juliane Andrade | Larissa Alexande | Nayara Une 
 
+### [Link da plataforma Desenvolvida](https://julianesas.github.io/Dindin-Plataforma-educacao-financeira/)
+
 
 ## Sobre o projeto:
 
@@ -47,7 +49,7 @@ Para maiores detalhes sobre o quadro Kanban, [clique aqui!](https://trello.com/i
 
 ## Desenvolvimento
 
-### [Link da plataforma Desenvolvida](https://julianesas.github.io/Dindin-Plataforma-educacao-financeira/)
+
 
 ### Frontend Dindin
 
