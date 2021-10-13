@@ -29,7 +29,7 @@ main{
 
 .card-article__description h2{
     font-weight: 500;
-    font-size: min(1.9rem, 7vw);
+    font-size: min(1.9rem, 6vw);
     line-height: 28px;
     padding-bottom: 1rem;
     color: #FF4081;
@@ -39,7 +39,7 @@ main{
 
 .card-article__description p{
     font-weight: 300;
-    font-size: min(1.06rem, 5vw);
+    font-size: min(1.06rem, 4.5vw);
     line-height: 20px;
     color: #000000;
     transition: 0.5s all;
@@ -92,7 +92,7 @@ main{
     } 
     .card-article__img img{
         width: 100%;
-        height: 40vh;
+        height: 35vh;
     } 
 }
 
@@ -100,4 +100,8 @@ main{
     .card-article{
         width: 100%;
     } 
+    .card-article__img img{
+        height: 25vh;
+    }
+    
 }
