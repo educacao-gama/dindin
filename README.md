@@ -45,7 +45,7 @@ O quadro Kanban foi estruturando com intuito de visualizar o fluxo de desenvolvi
 Além dos campos ***to do, doing*** e ***done***, foi adicionado um campo ***code review*** antes do campo ***done*** para a padronização dos códigos.
 Todos os cards do quadro foram elaborados com checklists que contemplavam as ***User Stories*** do ***Product Backlog***, e também foram agrupados e etiquetados para favorecer a visualização e organização das tarefas.
 
-Para maiores detalhes sobre o quadro Kanban, [clique aqui!](https://trello.com/invite/b/ktHRNqIW/702ce8c522786465ed08f08e051c0de9/kanban-desafio-praelas)
+## Para maiores detalhes sobre o quadro Kanban, [clique aqui!](https://trello.com/invite/b/ktHRNqIW/702ce8c522786465ed08f08e051c0de9/kanban-desafio-praelas)
 
 ## Desenvolvimento
 
