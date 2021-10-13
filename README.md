@@ -47,6 +47,8 @@ Para maiores detalhes sobre o quadro Kanban, [clique aqui!](https://trello.com/i
 
 ## Desenvolvimento
 
+### [Link da plataforma Desenvolvida](https://julianesas.github.io/Dindin-Plataforma-educacao-financeira/)
+
 ### Frontend Dindin
 
 As interfaces da plataforma Dindin foram confeccionadas seguindo o [protótipo de alta fidelidade:](https://www.figma.com/file/fBQ1nm00ynNQPK9GBwyMBc/dindin?node-id=0%3A1)
