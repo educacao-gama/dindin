@@ -10,7 +10,8 @@
 A empresa fictícia DINDIN, quer lançar uma plataforma de conteúdo sobre Educação Financeira.
 Além do desenvolvimento front-end, o cliente pediu para estruturar um banco de dados para a plataforma, priorizando informações sobre cursos, posts do blog e depoimentos de usuários.
 
-![web-gif-maker (1)](https://user-images.githubusercontent.com/87341547/137144039-a02be0c0-a652-47e0-b447-a703cb5d9f83.gif)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/87341547/137173522-fb8770d4-7ae6-4bf9-9ce5-4a82a5f1963b.gif)
+
 
 ## Setup inicial para elaboração do projeto:
 
