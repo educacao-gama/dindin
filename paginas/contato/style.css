@@ -93,6 +93,7 @@
 @media screen and (max-width:695px){
     .contact-box{
         flex-direction: column;
+        text-align: center;
     }
     .container-form{
         width: 80%;
